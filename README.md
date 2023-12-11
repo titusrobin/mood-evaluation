@@ -22,21 +22,9 @@ This application uses a pre-trained sentiment analysis model, but Hugging Face o
 
 ### Working of the app
 
-<p align="center">
-  <img width="600" src="https://github.com/nogibjj/IDS706-Individual_Project_4_us26/blob/main/images/1.png" alt="2">
-</p>	
+![6](https://github.com/titusrobin/mood-evaluation/assets/143838819/9f257693-9501-433c-9376-f61a02a19a54)
+![9](https://github.com/titusrobin/mood-evaluation/assets/143838819/d4e41e4e-d493-4ec8-b680-dc6115eba48b)
 
-<p align="center">
-  <img width="600" src="https://github.com/nogibjj/IDS706-Individual_Project_4_us26/blob/main/images/2.png" alt="2">
-</p>	
-
-<p align="center">
-  <img width="600" src="https://github.com/nogibjj/IDS706-Individual_Project_4_us26/blob/main/images/3.png" alt="2">
-</p>	
-
-<p align="center">
-  <img width="600" src="https://github.com/nogibjj/IDS706-Individual_Project_4_us26/blob/main/images/4.png" alt="2">
-</p>	
 
 ## Deploying Flask App to Docker Hub
 
@@ -51,10 +39,6 @@ This application uses a pre-trained sentiment analysis model, but Hugging Face o
     - docker tag my-flask-app username/my-flask-app:latest
     - docker push username/my-flask-app:latest
 
-
-<p align="center">
-  <img width="600" src="https://github.com/nogibjj/IDS706-Individual_Project_4_us26/blob/main/images/6.png" alt="2">
-</p>	
 
 ## Prerequisites
 
@@ -80,10 +64,6 @@ Replace <YOUR_APP_NAME> with your app name and <YOUR_REGION> with your desired A
 ### 5. Access Your Web App
 
       - https://<YOUR_APP_NAME>.azurewebsites.net
-
-<p align="center">
-  <img width="600" src="https://github.com/nogibjj/IDS706-Individual_Project_4_us26/blob/main/images/5.png" alt="2">
-</p>	
 
 
 ## HTML Templates
