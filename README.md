@@ -1,6 +1,6 @@
 # Auto Scaling Flask App Using Azure App Services
 
-[![Sentiment_Analysis CI/CD](https://github.com/nogibjj/IDS706-Individual_Project_4_us26/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/IDS706-Individual_Project_4_us26/actions/workflows/cicd.yml)
+[![Sentiment_Analysis CI/CD](https://github.com/titusrobin/mood-evaluation/actions/workflows/cicd.yml/badge.svg)](https://github.com/titusrobin/mood-evaluation/actions/workflows/cicd.yml)
 
 ## Hugging Face Model Integration
 
