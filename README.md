@@ -1,26 +1,23 @@
-# Auto Scaling Flask App Using Azure App Services
+# Sentiment Analyzer: Harnessing Hugging Face's AI
+Overview
+Welcome to Sentiment Analyzer, a dynamic Flask-based web application utilizing Hugging Face's cutting-edge AI technology for real-time sentiment analysis. This application leverages the power of transformer models to interpret and analyze user-inputted text, offering insights into the underlying emotions and sentiments.
 
-[![Sentiment_Analysis CI/CD](https://github.com/titusrobin/mood-evaluation/actions/workflows/cicd.yml/badge.svg)](https://github.com/titusrobin/mood-evaluation/actions/workflows/cicd.yml)
+# Features
+Real-time Sentiment Analysis: Instantly determines the sentiment of user-entered text.
+Powered by Hugging Face Transformers: Utilizes pre-trained models for accurate and efficient analysis.
+User-Friendly Interface: Easy to navigate Flask web application for seamless user experience.
+Getting Started
+To get started with Sentiment Analyzer, follow these simple steps:
 
-## Hugging Face Model Integration
+# Setup Environment: Ensure that Python and Flask are installed on your system.
+Install Dependencies: Run pip install -r requirements.txt to install necessary libraries.
+Launch Application: Start the Flask server and access the web application through your browser.
+How It Works
+Sentiment Analyzer uses a pre-trained model from Hugging Face's transformers library. The model, trained on extensive datasets, is adept at understanding various nuances in text and predicting sentiment with high accuracy.
 
-The Flask web application (`app.py`) integrates a sentiment analysis model provided by Hugging Face's Transformers library. This model is used to analyze the sentiment of text input by users.
-
-### Model Description
-
-The sentiment analysis model employed in this application is based on Hugging Face's pre-trained transformer models, which are designed for natural language processing tasks. The model uses transfer learning on a large corpus to predict the sentiment of text data.
-
-### Integration Details
-
-The model is loaded using Hugging Face's `pipeline` module within the Flask application (`app.py`). When a user inputs text into the application, the model processes the text and predicts the sentiment, returning the result to the user.
-
-The relevant code snippets in `app.py` demonstrate how the model is loaded and used for sentiment analysis.
-
-### Model Customization
-
-This application uses a pre-trained sentiment analysis model, but Hugging Face offers various pre-trained models for different natural language processing tasks. Users can explore and choose different models based on their specific requirements by modifying the model loading code in `app.py`.
-
-### Working of the app
+# Model Integration
+The Flask application (app.py) incorporates the Hugging Face model using its pipeline module.
+User input is processed by the model to predict sentiment, displaying results in real-time.
 
 ![6](https://github.com/titusrobin/mood-evaluation/assets/143838819/9f257693-9501-433c-9376-f61a02a19a54)
 ![9](https://github.com/titusrobin/mood-evaluation/assets/143838819/d4e41e4e-d493-4ec8-b680-dc6115eba48b)
