@@ -1,4 +1,7 @@
 # Sentiment Analyzer: Harnessing Hugging Face's AI
+
+Video demo: [LINK](https://www.loom.com/share/9fbb316aef224677bbc31fce2dd48aea) 
+
 Overview
 Welcome to Sentiment Analyzer, a dynamic Flask-based web application utilizing Hugging Face's cutting-edge AI technology for real-time sentiment analysis. This application leverages the power of transformer models to interpret and analyze user-inputted text, offering insights into the underlying emotions and sentiments.
 
